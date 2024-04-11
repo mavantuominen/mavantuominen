@@ -1,0 +1,39 @@
+.tab {
+ border-collapse: collapse;
+ width: 100%;
+}
+
+.de {
+ height: 5px;
+}
+
+.men {
+ background-color: #000;
+ color: white;
+ padding: 10px 20px 10px 20px;
+ border-radius: 15px;
+}
+
+.bo {
+ background-color: #000;
+ color: white;
+ padding: 10px 20px 10px 20px;
+ border-radius: 15px;
+}
+
+.photo {
+ width: 99%;
+ border-radius: 15px;
+}
+
+body {
+ background-color: #545657;
+ padding: 0px 25%;
+}
+
+@media (max-width: 700px) {
+body {
+ background-color: #545657;
+ padding: 0px 0%;
+}
+}
