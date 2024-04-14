@@ -1,0 +1,35 @@
+body {
+background-color: #232323;
+color: #fff;
+}
+
+.ner {
+margin-left: 25%;
+margin-right: 25%;
+}
+
+
+
+.geldiv3 {
+background-color: #000;
+height: 100%;
+border-radius: 7px;
+padding: 20px;
+background-color: #333333;
+}
+
+@media (max-width: 768px) {
+.ner {
+margin-left: 2%;
+margin-right: 2%;
+}
+}
+
+.e404 {
+font-size: 36;
+text-align: center;
+}
+
+.raz {
+height: 2px;
+}
