@@ -23,6 +23,10 @@ margin-right: 2%;
 }
 }
 
+img {
+max-width: 100%;
+}
+
 .e404 {
 font-size: 130px;
 text-align: center;
