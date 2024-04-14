@@ -3,12 +3,21 @@ background-color: #232323;
 color: #fff;
 }
 
-.ner {
+.bodybody {
 margin-left: 25%;
 margin-right: 25%;
 }
 
-.geldiv3 {
+@media (max-width: 768px) {
+.bodybody {
+margin-left: 2%;
+margin-right: 2%;
+}
+}
+
+/* --------------------- */
+
+.divdiv {
 background-color: #000;
 height: 100%;
 border-radius: 7px;
@@ -16,22 +25,6 @@ padding: 20px;
 background-color: #333333;
 }
 
-@media (max-width: 768px) {
-.ner {
-margin-left: 2%;
-margin-right: 2%;
-}
-}
-
 img {
 max-width: 100%;
-}
-
-.e404 {
-font-size: 130px;
-text-align: center;
-}
-
-.raz {
-height: 2px;
 }
