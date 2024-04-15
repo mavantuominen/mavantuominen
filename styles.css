@@ -1,6 +1,5 @@
 body {
 background-color: #232323;
-color: #fff;
 }
 
 .bodybody {
@@ -17,16 +16,57 @@ margin-right: 2%;
 
 /* --------------------- */
 
+.raz {
+height: 7px;
+}
+
 .divdiv {
-background-color: #000;
-height: 500px;
 border-radius: 7px;
 padding: 20px;
 background-color: #333333;
-width: 100%;
+max-width: 100%;
+}
+
+.tddiv {
+border-radius: 7px;
+padding: 1px;
+background-color: #333333;
+max-width: 100%;
 }
 
 .photo {
 max-width: 100%;
 border-radius: 10px;
+}
+
+/* --------------------- */
+
+.table-style {
+width: 100%;
+border-collapse: collapse;
+}
+
+.tdmenu {
+border: 5px solid #333333;
+text-align: center;
+background-color: white;
+}
+
+.tdbody {
+border: 3px solid white;
+}
+
+/* --------------------- */
+
+.divdetails {
+border: 1px solid #fff;
+padding: 5px 0px;
+margin-bottom: 10px;
+}
+
+.divsummary {
+font-size: 18px;
+color: #fff;
+padding: 10px;
+padding: 10px 20px;
 }
