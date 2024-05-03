@@ -56,6 +56,14 @@ details {
     border-radius: 7px;
 }
 
+.div_details {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
 summary {
     font-size: 19px;
     color: #fff;
