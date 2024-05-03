@@ -4,117 +4,69 @@ body {
     background-size: cover;
     background-position: center;
     background-color: #232323; /* Цвет фона, который будет виден между кадрами GIF */
-}
-
-.bodybody {
-margin-left: 25%;
-margin-right: 25%;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 @media (max-width: 768px) {
-.bodybody {
-margin-left: 2%;
-margin-right: 2%;
+    body {
+        background-image: url('5955ad19c9962c4cb7b51deb06004993.gif');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-color: #232323; /* Цвет фона, который будет виден между кадрами GIF */
+        padding-left: 1%;
+        padding-right: 1%;
+    }
 }
-
-details {
-border: 1px solid #fff;
-margin-top: 3px;
-margin-bottom: 3px;
-}
-
-summary {
-font-size: 18px;
-color: #fff;
-}
-
-
-
-}
-
-/* --------------------- */
 
 .divdiv {
-padding: 20px;
-background-color: rgba(51, 51, 51, 0.5); /* Цвет фона #333333 с прозрачностью 50% */
-max-width: 100%;
-margin-bottom: 10px;
-border-radius: 7px;
+    padding: 20px;
+    background-color: rgba(51, 51, 51, 0.5); /* Цвет фона #333333 с прозрачностью 50% */
+    max-width: 100%;
+    border-radius: 7px;
+    margin-bottom: 10px;
 }
 
 .divdiv2 {
     padding: 20px;
     background-color: rgba(213, 15, 37, 0.5); /* Цвет фона с прозрачностью 50% */
     max-width: 100%;
+    border-radius: 7px;
     margin-bottom: 10px;
-border-radius: 7px;
 }
 
 .divdiv3 {
-padding: 10px;
-background-color: rgba(255, 255, 255, 0.5); /* Белый цвет фона с прозрачностью 50% */
-max-width: 100%;
-margin-bottom: 10px;
-border-radius: 7px;
-}
-
-.tddiv {
-border-radius: 7px;
-padding: 1px;
-background-color: #333333;
-max-width: 100%;
+    padding-top: 10px;
+    background-color: rgba(255, 255, 255, 0.5); /* Белый цвет фона с прозрачностью 50% */
+    max-width: 100%;
+    border-radius: 7px;
+    margin-bottom: 10px;
 }
 
 .photo {
     max-width: 100%;
+    border-radius: 7px;
     margin-bottom: 10px;
-border-radius: 7px;
 }
-
-/* --------------------- */
-
-.table-style {
-width: 100%;
-border-collapse: collapse;
-}
-
-.tdmenu {
-border: 5px solid #333333;
-text-align: center;
-background-color: white;
-}
-
-.tdbody {
-border: 3px solid white;
-}
-
-/* --------------------- */
 
 details {
-border: 1px solid #fff;
-margin-top: 3px;
-margin-bottom: 3px;
+    border: 1px solid #fff;
+    margin-bottom: 10px;
 }
 
 summary {
-font-size: 19px;
-color: #fff;
-padding: 10px 20px;
+    font-size: 19px;
+    color: #fff;
+    padding: 10px 20px;
 }
 
-.text {
-color: #fff;
-font-size: 19px;
-padding-top: 5px;
-padding-bottom: 5px;
+p {
+    color: #fff;
+    font-size: 19px;
+    margin-bottom: 10px;
 }
 
-.txt {
-color: #fff;
-font-size: 19px;
-padding: 10px;
-}
-
-.hhh {
-color: #fff;
+h2 {
+    color: #fff;
 }
