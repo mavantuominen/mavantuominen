@@ -68,9 +68,9 @@ max-width: 100%;
 }
 
 .photo {
-max-width: 100%;
-border-radius: 10px;
-border: 2px solid white; /* Белая граница толщиной 2px */
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Белая тень */
 }
 
 /* --------------------- */
