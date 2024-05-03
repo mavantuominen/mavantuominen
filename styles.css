@@ -43,6 +43,15 @@ margin-top: 5px;
 margin-bottom: 5px;
 }
 
+.divdiv2 {
+border-radius: 7px;
+padding: 20px;
+background-color: #d50f25;
+max-width: 100%;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+
 .tddiv {
 border-radius: 7px;
 padding: 1px;
