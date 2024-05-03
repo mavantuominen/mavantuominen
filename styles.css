@@ -22,7 +22,6 @@ body {
     padding: 20px;
     background-color: #232323;
     max-width: 100%;
-    border-radius: 10px;
     margin-bottom: 10px;
 }
 
@@ -36,14 +35,12 @@ body {
 
 .photo {
     max-width: 100%;
-    border-radius: 10px;
     margin-bottom: 10px;
 }
 
 details {
     border: 1px solid #fff;
     margin-bottom: 10px;
-    border-radius: 10px;
 }
 
 .div_details {
@@ -52,6 +49,7 @@ details {
     color: #fff;
     font-size: 1.7rem;
     margin-bottom: 10px;
+    background-color: #963fd5;
 }
 
 summary {
@@ -75,5 +73,4 @@ h2 {
   color: black; /* Цвет текста */
   padding: 10px; /* Внутренние отступы */
   border-left: 7px solid #67e300; /* Цвет темной полосы слева */
-  border-radius: 10px;
 }
