@@ -38,24 +38,24 @@ color: #fff;
 padding: 20px;
 background-color: rgba(51, 51, 51, 0.5); /* Цвет фона #333333 с прозрачностью 50% */
 max-width: 100%;
-margin-top: 5px;
-margin-bottom: 5px;
+margin-bottom: 10px;
+border-radius: 7px;
 }
 
 .divdiv2 {
     padding: 20px;
     background-color: rgba(213, 15, 37, 0.5); /* Цвет фона с прозрачностью 50% */
     max-width: 100%;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+border-radius: 7px;
 }
 
 .divdiv3 {
 padding: 10px;
 background-color: rgba(255, 255, 255, 0.5); /* Белый цвет фона с прозрачностью 50% */
 max-width: 100%;
-margin-top: 5px;
-margin-bottom: 5px;
+margin-bottom: 10px;
+border-radius: 7px;
 }
 
 .tddiv {
@@ -67,7 +67,8 @@ max-width: 100%;
 
 .photo {
     max-width: 100%;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Белая тень */
+    margin-bottom: 10px;
+border-radius: 7px;
 }
 
 /* --------------------- */
