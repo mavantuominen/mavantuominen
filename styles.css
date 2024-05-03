@@ -1,8 +1,7 @@
 body {
-    background-image: url('5955ad19c9962c4cb7b51deb06004993.gif');
+    background-image: url('1614638125_32-p-kosmicheskii-fon-dlya-fotoshopa-49.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
     background-color: #232323; /* Цвет фона, который будет виден между кадрами GIF */
     padding-left: 25%;
     padding-right: 25%;
@@ -10,10 +9,9 @@ body {
 
 @media (max-width: 768px) {
     body {
-        background-image: url('5955ad19c9962c4cb7b51deb06004993.gif');
+        background-image: url('1614638125_32-p-kosmicheskii-fon-dlya-fotoshopa-49.jpg');
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center;
         background-color: #232323; /* Цвет фона, который будет виден между кадрами GIF */
         padding-left: 1%;
         padding-right: 1%;
@@ -22,23 +20,15 @@ body {
 
 .divdiv {
     padding: 20px;
-    background-color: rgba(51, 51, 51, 0.5); /* Цвет фона #333333 с прозрачностью 50% */
+    background-color: #232323;
     max-width: 100%;
-    border-radius: 7px;
+    border-radius: 10px;
     margin-bottom: 10px;
 }
 
 .divdiv2 {
     padding: 20px;
-    background-color: rgba(213, 15, 37, 0.5); /* Цвет фона с прозрачностью 50% */
-    max-width: 100%;
-    border-radius: 7px;
-    margin-bottom: 10px;
-}
-
-.divdiv3 {
-    padding-top: 10px;
-    background-color: rgba(255, 255, 255, 0.5); /* Белый цвет фона с прозрачностью 50% */
+    background-color: rgba(51, 51, 51, 0.5); /* Цвет фона #333333 с прозрачностью 50% */
     max-width: 100%;
     border-radius: 7px;
     margin-bottom: 10px;
@@ -46,14 +36,14 @@ body {
 
 .photo {
     max-width: 100%;
-    border-radius: 7px;
+    border-radius: 10px;
     margin-bottom: 10px;
 }
 
 details {
     border: 1px solid #fff;
     margin-bottom: 10px;
-    border-radius: 7px;
+    border-radius: 10px;
 }
 
 .div_details {
@@ -85,5 +75,5 @@ h2 {
   color: black; /* Цвет текста */
   padding: 10px; /* Внутренние отступы */
   border-left: 7px solid #67e300; /* Цвет темной полосы слева */
-  border-radius: 7px;
+  border-radius: 10px;
 }
