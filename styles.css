@@ -1,24 +1,26 @@
 body {
-    background-color: #65a6d1;
+    background-color: #ffe273;
+    padding: 0px;
+    margin: 0px;
 }
 
 .div-body {
     padding-left: 25%;
     padding-right: 25%;
+    margin: 0px;
 }
 
 @media (max-width: 900px) {
     .div-body {
-        padding-left: 6%;
-        padding-right: 6%;
+        padding: 0px;
+        margin: 0px;
     }
-}
 
-@media (max-width: 500px) {
-    .div-body {
-        padding-left: 0%;
-        padding-right: 0%;
-    }
+body {
+    background-color: #ffe273;
+    padding: 0px;
+    margin: 0px;
+}
 }
 
 .divdiv {
@@ -27,26 +29,22 @@ body {
     max-width: 100%;
 }
 
-.transparent {
-    max-width: 100%;
-    margin-bottom: 6px;
-}
-
 .photo {
     max-width: 100%;
+    margin: 0 0 6px 0;
 }
 
-p {
-    color: #000;
-    font-size: 19px;
-    margin-bottom: 6px;
-    font-family: Helvetica, Arial, sans-serif;
+.p-p {
+  color: #000; /* Цвет текста */
+  font-size: 19px;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0 0 6px 0;
 }
 
-h2 {
+.h2-h2 {
     color: #000;
     font-family: Helvetica, Arial, sans-serif;
-    margin-bottom: 6px;
+    margin: 0 0 6px 0;
 }
 
 .quote-green {
@@ -54,13 +52,16 @@ h2 {
   color: #000; /* Цвет текста */
   padding: 10px; /* Внутренние отступы */
   border-left: 6px solid #67e300; /* Цвет темной полосы слева */
+  font-size: 19px;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0 0 6px 0;
 }
 
 .a-button-white {
   background-color: #fff;
   color: #000;
   padding: 10px 20px;
-  font-family: Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   transition: background-color 0.3s; /* добавляем плавное изменение цвета фона */
 }
 
@@ -75,5 +76,6 @@ h2 {
 .color-div-blue {
     padding: 20px;
     background-color: rgba(76, 87, 216, 0.5); /* Цвет фона #4C57D8 с прозрачностью 50% */
-    max-width: 100%
+    max-width: 100%;
+    margin: 0 0 6px 0;
 }
