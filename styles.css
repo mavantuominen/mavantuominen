@@ -28,6 +28,7 @@ body {
 .photo {
     max-width: 100%;
     margin-bottom: 10px;
+    border: 1px solid #000; /* Серая граница толщиной 1 пиксель */
 }
 
 details {
