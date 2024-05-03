@@ -70,3 +70,10 @@ p {
 h2 {
     color: #fff;
 }
+
+.colorful-block {
+  background-color: #a9f16c; /* Цвет фона блока */
+  color: black; /* Цвет текста */
+  padding: 10px; /* Внутренние отступы */
+  border-left: 7px solid #67e300; /* Цвет темной полосы слева */
+}
