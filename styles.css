@@ -53,6 +53,7 @@ body {
 details {
     border: 1px solid #fff;
     margin-bottom: 10px;
+    border-radius: 7px;
 }
 
 summary {
@@ -76,4 +77,5 @@ h2 {
   color: black; /* Цвет текста */
   padding: 10px; /* Внутренние отступы */
   border-left: 7px solid #67e300; /* Цвет темной полосы слева */
+  border-radius: 7px;
 }
