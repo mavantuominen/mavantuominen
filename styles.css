@@ -85,6 +85,6 @@ h2 {
 
 .color-div-blue {
     padding: 20px;
-    background-color: #4C57D8;
+    background-color: rgba(76, 87, 216, 0.5); /* Цвет фона #4C57D8 с прозрачностью 50% */
     max-width: 100%;
 }
