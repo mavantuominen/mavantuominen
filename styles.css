@@ -36,15 +36,16 @@ body {
     max-width: 100%;
 }
 
-.p-p {
+p {
     color: #000;
     font-size: 19px;
     margin-bottom: 6px;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 h2 {
     color: #000;
-    font-family: Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     margin-bottom: 6px;
 }
 
