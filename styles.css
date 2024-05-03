@@ -43,15 +43,6 @@ details {
     margin-bottom: 10px;
 }
 
-.div_details {
-    padding-left: 20px;
-    padding-right: 20px;
-    color: #fff;
-    font-size: 1.7rem;
-    margin-bottom: 10px;
-    background-color: #963fd5;
-}
-
 summary {
     font-size: 19px;
     color: #fff;
@@ -90,4 +81,10 @@ h2 {
 
 .a-button-white:active {
   background-color: #cccccc; /* изменяем цвет фона при нажатии */
+}
+
+.color-div-blue {
+    padding: 20px;
+    background-color: #4C57D8;
+    max-width: 100%;
 }
