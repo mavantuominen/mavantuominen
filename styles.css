@@ -1,5 +1,5 @@
 body {
-    background-color: #ffe273;
+    background-color: #fff;
     padding: 0px;
     margin: 0px;
 }
@@ -10,41 +10,41 @@ body {
     margin: 0px;
 }
 
+.divdiv {
+    padding: 20px 0px 10px 0px;
+    background-color: #fff;
+    max-width: 100%;
+}
+
 @media (max-width: 900px) {
     .div-body {
         padding: 0px;
         margin: 0px;
     }
 
-body {
-    background-color: #ffe273;
-    padding: 0px;
-    margin: 0px;
-}
-}
-
 .divdiv {
-    padding: 20px;
+    padding: 20px 20px 10px 20px;
     background-color: #fff;
     max-width: 100%;
+}
 }
 
 .photo {
     max-width: 100%;
-    margin: 0 0 6px 0;
+    margin: 0 0 10px 0;
 }
 
 .p-p {
   color: #000; /* Цвет текста */
   font-size: 19px;
   font-family: Helvetica, Arial, sans-serif;
-  margin: 0 0 6px 0;
+  margin: 0 0 10px 0;
 }
 
 .h2-h2 {
     color: #000;
     font-family: Helvetica, Arial, sans-serif;
-    margin: 0 0 6px 0;
+    margin: 0 0 10px 0;
 }
 
 .quote-green {
@@ -54,7 +54,7 @@ body {
   border-left: 6px solid #67e300; /* Цвет темной полосы слева */
   font-size: 19px;
   font-family: Helvetica, Arial, sans-serif;
-  margin: 0 0 6px 0;
+  margin: 0 0 10px 0;
 }
 
 .a-button-white {
@@ -77,5 +77,5 @@ body {
     padding: 20px;
     background-color: rgba(76, 87, 216, 0.5); /* Цвет фона #4C57D8 с прозрачностью 50% */
     max-width: 100%;
-    margin: 0 0 6px 0;
+    margin: 0 0 10px 0;
 }
