@@ -74,3 +74,10 @@ h2 {
   padding: 10px; /* Внутренние отступы */
   border-left: 7px solid #67e300; /* Цвет темной полосы слева */
 }
+
+.square-button {
+    padding: 10px 20px;
+    background-color: lightgrey;
+    color: #232323;
+    border: 2px solid grey;
+}
