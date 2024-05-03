@@ -1,5 +1,9 @@
 body {
-background-color: #232323;
+    background-image: url('5955ad19c9962c4cb7b51deb06004993.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #232323; /* Цвет фона, который будет виден между кадрами GIF */
 }
 
 .bodybody {
