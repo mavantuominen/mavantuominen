@@ -19,35 +19,49 @@ body {
     background-color: #fff;
 }
 
-@media (max-width: 900px) {
-.block-article {
-    padding-left: 20px;
-    padding-right: 20px;
-}
-}
-
-.photo {
-    min-width: 300px;
-}
-
 .paragraph {
     color: #000; /* Цвет текста */
     font-size: 19px;
     font-family: Helvetica, Arial, sans-serif;
+    display: flex;
+    box-sizing: border-box;
+    flex-grow: 1;
 }
 
-.h2-h2 {
+.heading2 {
     color: #000;
     font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
 }
 
 .quote {
   padding: 10px; /* Внутренние отступы */
-  border-left: 7px solid #000; /* Цвет темной полосы слева */
+  border-left: 7px solid #616161; /* Цвет темной полосы слева */
   font-size: 19px;
   font-family: Helvetica, Arial, sans-serif;
   box-sizing: border-box;
   min-width: 300px;
+  background-color: #f1f1f1;
+  display: flex;
+  box-sizing: border-box;
+  flex-grow: 1;
+}
+
+@media (max-width: 900px) {
+.block-article {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.quote {
+  padding: 10px; /* Внутренние отступы */
+  border-left: 7px solid #616161; /* Цвет темной полосы слева */
+  font-size: 19px;
+  font-family: Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  min-width: 300px;
+  background-color: #f1f1f1;
+display: none;
+}
 }
 
 .a-button-white {
@@ -61,6 +75,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  display: inline-flex;
 }
 
 .a-button-white:hover {
