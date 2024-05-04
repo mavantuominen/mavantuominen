@@ -69,6 +69,18 @@ body {
     text-align: center;
 }
 
+.block-404 {
+padding: 20px;
+text-align: center;
+margin: 0;
+background-color: #ace5ee;
+color: #fff;
+font-family: Helvetica, Arial, sans-serif;
+font-size: 19vw;
+display: none;
+width: 100%;
+}
+
 /* ---------- РАЗМЕРЫ ЭКРАНА ---------- */
 
 @media (max-width: 900px) {
@@ -116,5 +128,9 @@ body {
 
 .paragraph {
     font-size: 13px;
+}
+
+.block-404 {
+display: block;
 }
 }
