@@ -23,9 +23,6 @@ body {
     color: #000; /* Цвет текста */
     font-size: 19px;
     font-family: Helvetica, Arial, sans-serif;
-    display: flex;
-    box-sizing: border-box;
-    flex-grow: 1;
 }
 
 .heading2 {
@@ -35,33 +32,8 @@ body {
 
 .quote {
   padding: 10px; /* Внутренние отступы */
-  border-left: 7px solid #616161; /* Цвет темной полосы слева */
-  font-size: 19px;
-  font-family: Helvetica, Arial, sans-serif;
-  box-sizing: border-box;
-  min-width: 300px;
+  border-left: 5px solid #616161; /* Цвет темной полосы слева */
   background-color: #f1f1f1;
-  display: flex;
-  box-sizing: border-box;
-  flex-grow: 1;
-}
-
-@media (max-width: 900px) {
-.block-article {
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.quote {
-  padding: 10px; /* Внутренние отступы */
-  border-left: 7px solid #616161; /* Цвет темной полосы слева */
-  font-size: 19px;
-  font-family: Helvetica, Arial, sans-serif;
-  box-sizing: border-box;
-  min-width: 300px;
-  background-color: #f1f1f1;
-display: none;
-}
 }
 
 .a-button-white {
@@ -76,6 +48,7 @@ display: none;
   align-items: center;
   justify-content: center;
   display: inline-flex;
+  margin: 0px;
 }
 
 .a-button-white:hover {
@@ -86,10 +59,61 @@ display: none;
   background-color: #cccccc; /* изменяем цвет фона при нажатии */
 }
 
-ul {
+.list {
   list-style-type: disc;
   margin: 0;
-  color: #000; /* Цвет текста */
-  font-size: 19px;
-  font-family: Helvetica, Arial, sans-serif;
+}
+
+.div-buttons {
+    text-align: center;
+}
+
+/* ---------- РАЗМЕРЫ ЭКРАНА ---------- */
+
+@media (max-width: 900px) {
+}
+
+@media (max-width: 800px) {
+.block-article {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.paragraph {
+    font-size: 18px;
+}
+}
+
+@media (max-width: 700px) {
+.paragraph {
+    font-size: 17px;
+}
+}
+
+@media (max-width: 600px) {
+.paragraph {
+    font-size: 16px;
+}
+}
+
+@media (max-width: 500px) {
+.paragraph {
+    font-size: 15px;
+}
+}
+
+@media (max-width: 400px) {
+.paragraph {
+    font-size: 14px;
+}
+}
+
+@media (max-width: 300px) {
+.block-article {
+    display: none;
+}
+
+.paragraph {
+    font-size: 13px;
+}
 }
