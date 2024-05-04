@@ -33,6 +33,7 @@ body {
     max-width: 100%;
     margin: 0 0 10px 0;
     border-radius: 10px;
+    min-width: 300px;
 }
 
 .p-p {
@@ -57,6 +58,8 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   margin: 0 0 10px 0;
   border-radius: 10px;
+  box-sizing: border-box;
+  min-width: 300px;
 
     display: block;
     unicode-bidi: isolate;
@@ -85,6 +88,8 @@ body {
     max-width: 100%;
     padding: 10px 10px 0px 10px;
     border-radius: 10px;
+    box-sizing: border-box;
+    min-width: 300px;
 }
 
 ul {
