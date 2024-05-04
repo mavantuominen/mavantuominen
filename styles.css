@@ -48,6 +48,11 @@ body {
   background-color: #f1f1f1;
 }
 
+.separator {
+  margin: 0 0px 10px 0px;
+  border-top: 1px solid #777777;
+}
+
 .a-button-white {
   background-color: #fff;
   color: #000;
@@ -87,6 +92,10 @@ body {
     display: none;
     font-family: Helvetica, Arial, sans-serif;
     display: none;
+}
+
+.pspan {
+  color: #616161;
 }
 
 /* ---------- РАЗМЕРЫ ЭКРАНА ---------- */
