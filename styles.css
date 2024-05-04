@@ -32,6 +32,7 @@ body {
 .photo {
     max-width: 100%;
     margin: 0 0 10px 0;
+    border-radius: 10px;
 }
 
 .p-p {
@@ -51,10 +52,11 @@ body {
   background-color: #a9f16c; /* Цвет фона блока */
   color: #000; /* Цвет текста */
   padding: 10px; /* Внутренние отступы */
-  border-left: 6px solid #67e300; /* Цвет темной полосы слева */
+  border-left: 10px solid #67e300; /* Цвет темной полосы слева */
   font-size: 19px;
   font-family: Helvetica, Arial, sans-serif;
   margin: 0 0 10px 0;
+  border-radius: 10px;
 
     display: block;
     unicode-bidi: isolate;
@@ -66,6 +68,8 @@ body {
   padding: 10px 20px;
   font-family: Helvetica, Arial, sans-serif;
   transition: background-color 0.3s; /* добавляем плавное изменение цвета фона */
+  border-radius: 10px;
+  max-width: 100%;
 }
 
 .a-button-white:hover {
@@ -77,8 +81,16 @@ body {
 }
 
 .color-div-blue {
-    padding: 20px;
     background-color: rgba(76, 87, 216, 0.5); /* Цвет фона #4C57D8 с прозрачностью 50% */
     max-width: 100%;
-    margin: 0 0 10px 0;
+    padding: 10px 10px 0px 10px;
+    border-radius: 10px;
+}
+
+ul {
+  list-style-type: circle;
+  color: #000; /* Цвет текста */
+  font-size: 19px;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0 0 10px 0;
 }
