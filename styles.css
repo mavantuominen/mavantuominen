@@ -1,7 +1,3 @@
-.color-div {
-padding: 20px 20px 10px 20px;
-}
-
 .color-div-f0e68c {
 background-color: #f0e68c;
 }
@@ -32,13 +28,19 @@ background-color: #f1f1f1;
   background-position: center;
 }
 
-.pspan-2 {
-  display: inline-block;
-  max-width: 33%; /* Установите желаемую ширину */
-  padding: 5px;
-  border: 1px solid #000;
-  overflow: hidden; /* Скрыть содержимое, которое выходит за границы */
-border-radius: 7px;
+/* ------------------------------ */
+
+.block-button {
+display: flex;
+margin: 0 0 10px 0;
+background-color: #f5deb3;
+}
+
+.button-item {
+width: 100%;
+max-width: 100%;
+background-color: #f0e68c;
+padding: 20px;
 }
 
 /* ------------------------------ */
@@ -59,6 +61,7 @@ text-align: right;
 margin: 0 0 10px 0;
 max-width: 100%;
 border-radius: 7px;
+padding: 20px 20px 10px 20px;
 }
 
 .photo {
@@ -92,7 +95,6 @@ font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
 font-size: 20px;
 margin: 0 0 10px 0;
 max-width: 100%;
-position: relative;
 }
 
 .heading {
