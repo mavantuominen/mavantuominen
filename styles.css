@@ -1,101 +1,122 @@
-.rules {
-    margin: 0 0 10px 0;
-    max-width: 100%;
+.miniblock {
+margin: 0 0 10px 0;
+max-width: 100%;
+}
+
+.photo {
+margin: 0 0 10px 0;
+max-width: 100%;
 }
 
 .color-div {
-    padding: 20px 20px 10px 20px;
+padding: 20px 20px 10px 20px;
 }
 
 .color-div-f0e68c {
-    background-color: #f0e68c;
+background-color: #f0e68c;
 }
 
 .color-div-f5deb3 {
-    background-color: #f5deb3;
+background-color: #f5deb3;
 }
 
 .color-div-f1f1f1 {
-    background-color: #f1f1f1;
+background-color: #f1f1f1;
 }
 
+/* ------------------------------ */
+
 body {
-    padding: 0px;
-    margin: 0px;
+padding: 0px;
+margin: 0px;
 }
 
 .block-article {
-    padding-left: 25%;
-    padding-right: 25%;
-    background-color: #fff;
+padding-left: 25%;
+padding-right: 25%;
+background-color: #fff;
 }
 
 .paragraph {
-    color: #000; /* Цвет текста */
-    font-size: 17px;
-    font-family: Helvetica, Arial, sans-serif;
+color: #000;
+font-size: 17px;
+font-family: 'Helvetica', Arial, sans-serif;
+margin: 0 0 10px 0;
+max-width: 100%;
 }
 
-.heading2 {
-    color: #000;
-    font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
-    font-size: 20px;
+.subtitle {
+color: #000;
+font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
+font-size: 20px;
+margin: 0 0 10px 0;
+max-width: 100%;
+}
+
+.heading {
+color: #000;
+font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
+font-size: 30px;
+margin: 0 0 10px 0;
+max-width: 100%;
 }
 
 .quote {
-  padding: 10px; /* Внутренние отступы */
-  border-left: 5px solid #616161; /* Цвет темной полосы слева */
-  background-color: #f1f1f1;
+padding: 10px;
+border-left: 5px solid #616161;
+background-color: #f1f1f1;
+margin: 0 0 10px 0;
+max-width: 100%;
+color: #000;
+font-size: 17px;
+font-family: 'Helvetica', Arial, sans-serif;
 }
 
 .separator {
-  margin: 0 0px 10px 0px;
-  border-top: 1px solid #777777;
+margin: 0 0px 10px 0px;
+border-top: 1px solid #000;
+max-width: 100%;
 }
 
 .a-button-white {
-  background-color: #fff;
-  color: #000;
-  padding: 10px 20px;
-  font-family: Helvetica, Arial, sans-serif;
-  transition: background-color 0.3s; /* добавляем плавное изменение цвета фона */
-  box-sizing: border-box;
-  width: 30%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  display: inline-flex;
-  margin: 0px;
+background-color: #fff;
+color: #000;
+padding: 10px 20px;
+font-family: Helvetica, Arial, sans-serif;
+transition: background-color 0.3s; /* добавляем плавное изменение цвета фона */
+box-sizing: border-box;
+width: 30%;
+display: flex;
+align-items: center;
+justify-content: center;
+display: inline-flex;
+margin: 0px;
 }
 
 .a-button-white:hover {
-  background-color: #e3e3e3; /* изменяем цвет фона при наведении */
+background-color: #e3e3e3; /* изменяем цвет фона при наведении */
 }
 
 .a-button-white:active {
-  background-color: #cccccc; /* изменяем цвет фона при нажатии */
+background-color: #cccccc; /* изменяем цвет фона при нажатии */
 }
 
 .list {
-  list-style-type: disc;
-  margin: 0;
-  padding-left: 10px;
-}
-
-.div-buttons {
-    text-align: center;
+list-style-type: disc;
+margin: 0;
+padding-left: 10px;
 }
 
 .display-p {
-    color: #fff;
-    font-size: 10vw;
-    display: none;
-    font-family: Helvetica, Arial, sans-serif;
-    display: none;
+color: #fff;
+font-size: 10vw;
+display: none;
+font-family: Helvetica, Arial, sans-serif;
+display: none;
 }
 
 .pspan {
-  color: #616161;
+color: #616161;
 }
 
 /* ---------- РАЗМЕРЫ ЭКРАНА ---------- */
@@ -124,14 +145,14 @@ body {
 
 @media (max-width: 300px) {
 .block-article {
-    display: none;
+display: none;
 }
 
 .display-p {
-    display: block;
+display: block;
 }
 
 body {
-    background-color: #7fc7ff;
+background-color: #7fc7ff;
 }
 }
