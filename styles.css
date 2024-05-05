@@ -33,7 +33,6 @@ background-color: #f1f1f1;
 .block-button {
 display: flex;
 margin: 0 0 10px 0;
-background-color: #f5deb3;
 padding: 0 2px;
 }
 
@@ -42,6 +41,7 @@ width: 100%;
 max-width: 100%;
 background-color: #f0e68c;
 margin: 0 2px;
+border-radius: 7px;
 }
 
 /* ------------------------------ */
