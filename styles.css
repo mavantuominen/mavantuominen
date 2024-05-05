@@ -33,13 +33,11 @@ background-color: #f1f1f1;
 .block-button {
 display: flex;
 margin: 0 0 10px 0;
-padding: 0 2px;
 }
 
 .button-item {
 width: 100%;
-max-width: 100%;
-margin: 0 2px;
+margin: 0 0 2px 0;
 border-radius: 7px;
 }
 
