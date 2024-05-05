@@ -23,6 +23,15 @@ background-color: #f1f1f1;
   background-position: center;
 }
 
+.image-background-2 {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url('AddText_05-05-06.06.05.png');
+  background-size: cover;
+  background-position: center;
+}
+
 /* ------------------------------ */
 
 .position-center {
