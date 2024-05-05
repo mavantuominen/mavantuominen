@@ -14,6 +14,15 @@ background-color: #f5deb3;
 background-color: #f1f1f1;
 }
 
+.image-background {
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  background-image: url('AddText_05-05-05.58.54.png');
+  background-size: cover;
+  background-position: center;
+}
+
 /* ------------------------------ */
 
 .position-center {
