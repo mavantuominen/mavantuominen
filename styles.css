@@ -34,7 +34,7 @@ background-color: #f1f1f1;
 
 .pspan-2 {
   display: inline-block;
-  max-width: 80%; /* Установите желаемую ширину */
+  max-width: 33%; /* Установите желаемую ширину */
   padding: 20px;
   border: 1px solid #000;
   overflow: hidden; /* Скрыть содержимое, которое выходит за границы */
