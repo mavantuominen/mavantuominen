@@ -1,3 +1,17 @@
+.position-center {
+text-align: center;
+}
+
+.position-left {
+text-align: left;
+}
+
+.position-right {
+text-align: right;
+}
+
+/* ------------------------------ */
+
 .miniblock {
 margin: 0 0 10px 0;
 max-width: 100%;
