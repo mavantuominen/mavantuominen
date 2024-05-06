@@ -11,17 +11,16 @@ min-width: 400px;
 padding-left: 25%;
 padding-right: 25%;
 background-color: #fff;
-width: 50%;
-display: fixed;
+max-width: 100%;
 }
 
 /* ВЫНОСКА =================================== */
 
 .color-block {
-  margin: 0 0 10px 0;
-  max-width: 100%;
-  border-radius: 7px;
-  padding: 20px 20px 10px 20px;
+margin: 0 0 10px 0;
+max-width: 100%;
+border-radius: 7px;
+padding: 20px 20px 10px 20px;
 }
 
 /* БЛОК КОЛОНКИ =================================== */
@@ -32,9 +31,10 @@ display: flex;
 }
 
 .column {
-width: 100%;
+width: 50%;
 margin: 0 10px 0 0;
 border-radius: 7px;
+box-sizing: border-box;
 }
 
 /* КАРТИНКА =================================== */
@@ -92,11 +92,9 @@ font-family: 'Helvetica', Arial, sans-serif;
 /* РАЗДЕЛИТЕЛЬ =================================== */
 
 .separator {
-color: red;
-background-color: transparent;
-border: 1px solid #0053a0;
-height: 1px;
 margin: 0 0px 10px 0px;
+border-top: 1px solid #000;
+max-width: 100%;
 }
 
 /* ПОЗИЦИЯ ЭЛЕМЕНТОВ =================================== */
