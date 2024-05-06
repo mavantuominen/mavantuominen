@@ -1,47 +1,102 @@
-.color-div-f0e68c {
-background-color: #f0e68c;
+/* ОКНО БРАУЗЕРА =================================== */
+
+body {
+padding: 0px;
+margin: 0px;
+min-width: 400px;
 }
 
-.color-div-f5deb3 {
-background-color: #f5deb3;
+/* БЛОК СТАТЬЯ =================================== */
+
+.block-article {
+padding-left: 25%;
+padding-right: 25%;
+background-color: #fff;
 }
 
-.color-div-f1f1f1 {
-background-color: #f1f1f1;
-}
+/* ВЫНОСКА =================================== */
 
-.image-background {
-  display: inline-block;
-  width: 38px;
-  height: 38px;
-  background-image: url('AddText_05-05-05.58.54.png');
-  background-size: cover;
-  background-position: center;
-}
-
-.image-background-2 {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  background-image: url('AddText_05-05-06.06.05.png');
-  background-size: cover;
-  background-position: center;
-}
-
-/* ------------------------------ */
-
-.block-button {
-display: flex;
+.color-block {
 margin: 0 0 10px 0;
+max-width: 100%;
+border-radius: 7px;
+padding: 20px 20px 10px 20px;
 }
 
-.button-item {
+/* БЛОК КОЛОНКИ =================================== */
+
+.columns {
+margin: 0 0 10px 0;
+display: flex;
+}
+
+.column {
 width: 100%;
-margin: 0 5px 0 0;
+margin: 0 0 5px 0;
 border-radius: 7px;
 }
 
-/* ------------------------------ */
+/* КАРТИНКА =================================== */
+
+.photo {
+margin: 0 0 10px 0;
+max-width: 100%;
+border-radius: 7px;
+background-color: #fff;
+}
+
+/* АБЗАЦ =================================== */
+
+.paragraph {
+color: #000;
+font-size: 17px;
+font-family: 'Helvetica', Arial, sans-serif;
+margin: 0 0 10px 0;
+max-width: 100%;
+}
+
+/* ЗАГОЛОВОК =================================== */
+
+.heading {
+color: #000;
+font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
+font-size: 38px;
+margin: 0 0 10px 0;
+max-width: 100%;
+}
+
+/* ПОДЗАГОЛОВОК =================================== */
+
+.subtitle {
+color: #000;
+font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
+font-size: 20px;
+margin: 0 0 10px 0;
+max-width: 100%;
+}
+
+/* ЦИТАТА =================================== */
+
+.quote {
+padding: 10px;
+border-left: 5px solid #616161;
+background-color: #f1f1f1;
+margin: 0 0 10px 0;
+max-width: 100%;
+color: #000;
+font-size: 17px;
+font-family: 'Helvetica', Arial, sans-serif;
+}
+
+/* РАЗДЕЛИТЕЛЬ =================================== */
+
+.separator {
+margin: 0 0px 10px 0px;
+border-top: 1px solid #000;
+max-width: 100%;
+}
+
+/* ПОЗИЦИЯ ЭЛЕМЕНТОВ =================================== */
 
 .position-center {
 text-align: center;
@@ -55,70 +110,7 @@ text-align: left;
 text-align: right;
 }
 
-.miniblock {
-margin: 0 0 10px 0;
-max-width: 100%;
-border-radius: 7px;
-padding: 20px 20px 10px 20px;
-}
-
-.photo {
-margin: 0 0 10px 0;
-max-width: 100%;
-border-radius: 7px;
-}
-
-body {
-padding: 0px;
-margin: 0px;
-}
-
-.block-article {
-padding-left: 25%;
-padding-right: 25%;
-background-color: #fff;
-}
-
-.paragraph {
-color: #000;
-font-size: 17px;
-font-family: 'Helvetica', Arial, sans-serif;
-margin: 0 0 10px 0;
-max-width: 100%;
-}
-
-.subtitle {
-color: #000;
-font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
-font-size: 20px;
-margin: 0 0 10px 0;
-max-width: 100%;
-}
-
-.heading {
-color: #000;
-font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
-font-size: 38px;
-margin: 0 0 10px 0;
-max-width: 100%;
-}
-
-.quote {
-padding: 10px;
-border-left: 5px solid #616161;
-background-color: #f1f1f1;
-margin: 0 0 10px 0;
-max-width: 100%;
-color: #000;
-font-size: 17px;
-font-family: 'Helvetica', Arial, sans-serif;
-}
-
-.separator {
-margin: 0 0px 10px 0px;
-border-top: 1px solid #000;
-max-width: 100%;
-}
+/* ======================================================================  */
 
 .a-button-white {
 background-color: #fff;
@@ -143,10 +135,15 @@ background-color: #e3e3e3; /* изменяем цвет фона при наве
 background-color: #cccccc; /* изменяем цвет фона при нажатии */
 }
 
-.list {
+.block-article-list {
 list-style-type: disc;
 margin: 0;
 padding-left: 10px;
+margin: 10px 0 0 0;
+}
+
+.plist {
+list-style-type: disc;
 }
 
 .display-p {
@@ -161,7 +158,7 @@ display: none;
 color: #616161;
 }
 
-/* ---------- РАЗМЕРЫ ЭКРАНА ---------- */
+/* РАЗМЕРЫ ЭКРАНА =================================== */
 
 @media (max-width: 900px) {
 }
@@ -186,6 +183,12 @@ color: #616161;
 }
 
 @media (max-width: 300px) {
+}
+
+@media (max-width: 200px) {
+}
+
+@media (max-width: 100px) {
 .block-article {
 display: none;
 }
@@ -198,3 +201,5 @@ body {
 background-color: #7fc7ff;
 }
 }
+
+/* ------------------------------- */
