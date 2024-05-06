@@ -17,22 +17,22 @@ background-color: #fff;
 /* ВЫНОСКА =================================== */
 
 .color-block {
-margin: 0 0 10px 0;
-max-width: 100%;
-border-radius: 7px;
-padding: 20px 20px 10px 20px;
+  margin: 0 0 10px 0;
+  max-width: 100%;
+  border-radius: 7px;
+  padding: 20px 20px 10px 20px;
 }
 
 /* БЛОК КОЛОНКИ =================================== */
 
 .columns {
-margin: 0 0 10px 0;
+margin: 0;
 display: flex;
 }
 
 .column {
 width: 100%;
-margin: 0 0 5px 0;
+margin: 0 10px 0 0;
 border-radius: 7px;
 }
 
@@ -148,6 +148,13 @@ list-style-type: disc;
 
 .pspan {
 color: #616161;
+}
+
+.bbl {
+position: fixed;
+top: 0;
+lrft: 0;
+z-index: 3;
 }
 
 /* РАЗМЕРЫ ЭКРАНА =================================== */
