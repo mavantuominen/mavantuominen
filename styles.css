@@ -5,13 +5,14 @@ padding: 0px;
 margin: 0px;
 min-width: 400px;
 }
-
 /* БЛОК СТАТЬЯ =================================== */
 
 .block-article {
 padding-left: 25%;
 padding-right: 25%;
 background-color: #fff;
+width: 50%;
+display: fixed;
 }
 
 /* ВЫНОСКА =================================== */
@@ -91,9 +92,11 @@ font-family: 'Helvetica', Arial, sans-serif;
 /* РАЗДЕЛИТЕЛЬ =================================== */
 
 .separator {
+color: red;
+background-color: transparent;
+border: 1px solid #0053a0;
+height: 1px;
 margin: 0 0px 10px 0px;
-border-top: 1px solid #000;
-max-width: 100%;
 }
 
 /* ПОЗИЦИЯ ЭЛЕМЕНТОВ =================================== */
@@ -153,8 +156,11 @@ color: #616161;
 .bbl {
 position: fixed;
 top: 0;
-lrft: 0;
-z-index: 3;
+left: 0;
+z-index: 1;
 background-color: #000;
 color: #fff;
+max-width: 100%;
+height: 50px;
+overflow: scroll;
 }
