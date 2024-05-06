@@ -146,60 +146,12 @@ margin: 10px 0 0 0;
 list-style-type: disc;
 }
 
-.display-p {
-color: #fff;
-font-size: 10vw;
-display: none;
-font-family: Helvetica, Arial, sans-serif;
-display: none;
-}
-
 .pspan {
 color: #616161;
 }
 
 /* РАЗМЕРЫ ЭКРАНА =================================== */
 
-@media (max-width: 900px) {
-}
 
-@media (max-width: 800px) {
-.block-article {
-    padding-left: 20px;
-    padding-right: 20px;
-}
-}
-
-@media (max-width: 700px) {
-}
-
-@media (max-width: 600px) {
-}
-
-@media (max-width: 500px) {
-}
-
-@media (max-width: 400px) {
-}
-
-@media (max-width: 300px) {
-}
-
-@media (max-width: 200px) {
-}
-
-@media (max-width: 100px) {
-.block-article {
-display: none;
-}
-
-.display-p {
-display: block;
-}
-
-body {
-background-color: #7fc7ff;
-}
-}
 
 /* ------------------------------- */
