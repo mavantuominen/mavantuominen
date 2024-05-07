@@ -160,13 +160,20 @@ margin: 10px 0 0 0;
   right: 0;
   bottom: 90%; /* Установите нижнюю границу на 50px от верха экрана */
   background-color: yellow;
-  overflow: auto;
   margin: 0;
 }
 
 .bbl2 {
-max-width: 100%;
-overflow: scroll;
-margin: 0;
-display: flex;
+  background-color: #000;
+  color: #fff;
+  max-width: 100%;
+  overflow: scroll;
+  z-index: 2;
+  position: fixed;
+  top: 90%; /* Установите верхнюю границу на 0 */
+  left: 0;
+  right: 0;
+  bottom: 0; /* Установите нижнюю границу на 50px от верха экрана */
+  background-color: red;
+  margin: 0;
 }
