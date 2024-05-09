@@ -5,17 +5,14 @@ padding: 0px;
 margin: 0px;
 min-width: 400px;
 }
+
 /* БЛОК СТАТЬЯ =================================== */
 
 .block-article {
   padding-left: 25%;
   padding-right: 25%;
   background-color: #fff;
-  max-width: 100%;
-}
-
-.conte {
-  position: relative;
+position: relative;
 }
 
 /* ВЫНОСКА =================================== */
@@ -172,5 +169,14 @@ background-color: #000;
 color: #fff;
 position: sticky;
 left: 0;
-top: 0;
+top: 90%;
+margin: 0px;
+font-size: 17px;
+}
+
+.conte {
+  position: relative;
+padding: 0px;
+margin: 0px;
+max-width: 100%;
 }
