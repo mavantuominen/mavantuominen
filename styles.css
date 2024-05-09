@@ -165,13 +165,15 @@ max-width: 100%;
 /* ======================================================================  */
 
 .bbl {
-background-color: #000;
+background-color: rgba(0, 0, 255, 0.5);
 color: #fff;
 position: sticky;
 left: 0;
 top: 90%;
 margin: 0px;
 font-size: 17px;
+flex-grow: 1;
+padding: 20px;
 }
 
 .conte {
