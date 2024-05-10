@@ -52,7 +52,7 @@ background-color: #fff;
 .paragraph {
 color: #000;
 font-size: 1.1rem;
-font-family: 'Helvetica', Arial, sans-serif;
+font-family: Arial;
 margin: 0 0 10px 0;
 max-width: 100%;
 }
@@ -61,7 +61,7 @@ max-width: 100%;
 
 .heading {
 color: #000;
-font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
+font-family: Arial;
 font-size: 2.375rem;
 margin: 0 0 10px 0;
 max-width: 100%;
@@ -71,7 +71,7 @@ max-width: 100%;
 
 .subtitle {
 color: #000;
-font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
+font-family: Arial;
 font-size: 20px;
 margin: 0 0 10px 0;
 max-width: 100%;
@@ -118,7 +118,7 @@ text-align: right;
   background-color: #ff0000;
   color: #000;
   padding: 10px 20px;
-  font-family: Helvetica, Arial, sans-serif;
+font-family: Arial;
   transition: background-color 0.3s; /* добавляем плавное изменение цвета фона */
   box-sizing: border-box;
   width: 100%;
@@ -150,7 +150,7 @@ list-style-type: disc;
 margin: 0 0 10px 0;
 color: #000;
 font-size: 17px;
-font-family: 'Helvetica', Arial, sans-serif;
+font-family: Arial;
 max-width: 100%;
 color: #fff;
 }
@@ -159,7 +159,7 @@ color: #fff;
 margin: 0 0 10px 0;
 color: #000;
 font-size: 17px;
-font-family: 'Helvetica', Arial, sans-serif;
+font-family: Arial;
 max-width: 100%;
 }
 
@@ -168,7 +168,7 @@ max-width: 100%;
 .navigation-heading {
 color: #fff;
 font-family: Arial;
-font-size: 20px;
+font-size: 20px;ц
 margin: 0 0 10px 0;
 max-width: 100%;
 }
