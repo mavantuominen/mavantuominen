@@ -1,0 +1,90 @@
+:root {
+  --header: #333333;
+  --color: #000000;
+  --article-color: #ffffff;
+}
+
+body {
+  background-color: #eeeeee;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: var(--header);
+  color: var(--color);
+  padding: 1em;
+  width: 100%;
+  max-height: 3.125em;
+  overflow: hidden;
+  margin: 0;
+  top: 0;
+  position: fixed;
+}
+
+.section-header {
+  background-color: var(--header);
+  width: 100%;
+  min-height: 3.125em;
+  margin: 0;
+  padding: 0;
+}
+
+.section-article {
+  max-width: 100%;
+  background-color: var(--article-color);
+  padding: 1em 25%;
+}
+
+.section-article p {
+color: var(--color);
+font-size: 1.5em;
+font-family: Arial;
+margin: 0 0 10px 0;
+max-width: 100%;
+}
+
+.section-article h1 {
+color: var(--color);
+font-size: 3.5em;
+font-family: Arial;
+margin: 0 0 10px 0;
+max-width: 100%;
+text-align: center;
+}
+
+.section-article h2 {
+color: var(--color);
+font-size: 2.5em;
+font-family: Arial;
+margin: 0 0 10px 0;
+max-width: 100%;
+}
+
+.section-article h3 {
+color: var(--color);
+font-size: 2em;
+font-family: Arial;
+margin: 0 0 10px 0;
+max-width: 100%;
+}
+
+.section-article img {
+margin: 0 0 15px 0;
+max-width: 100%;
+border-radius: 7px;
+}
+
+.section-article-color {
+margin: 0 0 10px 0;
+max-width: 100%;
+border-radius: 7px;
+padding: 20px 20px 10px 20px;
+background-color: rgba(199, 244, 100, 0.5);
+}
+
+@media only screen and (max-width: 767px) {
+.section-article {
+  padding: 1em 1%;
+}
+}
