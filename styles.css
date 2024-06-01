@@ -19,7 +19,7 @@ header {
   overflow: hidden;
   margin: 0;
   top: 0;
-  position: fixed;
+  position: sticky;
 }
 
 .section-header {
