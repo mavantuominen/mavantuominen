@@ -19,7 +19,8 @@ header {
   overflow: hidden;
   margin: 0;
   top: 0;
-  position: sticky;
+  position: fixed;
+-webkit-position: fixed;
 }
 
 .section-header {
