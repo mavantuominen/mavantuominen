@@ -20,10 +20,10 @@ header {
   max-height: 3.125em;
   overflow: hidden;
   margin: 0;
-  top: 0;
   position: fixed;
--webkit-position: fixed;
-box-sizing: border-box;
+  left: 0;
+  width: 100%;
+  z-index: 1;
 }
 
 .section-header {
